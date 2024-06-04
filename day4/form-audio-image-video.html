@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form audio video image</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+     <fieldset>
+          <legend>personal information</legend>
+          <label for="">Name:</label>
+          <input type="text" id="name">
+          <br><br>
+          <label for="">Password:</label>
+          <input type="password" id="password">
+          <br><br>
+        <p>Gender:
+           <input type="radio" name="gender"><label for="Male">Male</label>
+            <input type="radio" name="gender"><label for="Female">Female</label>
+        </p>
+          <p>Hobbies:
+            <input type="checkbox" name="hobbies"><label form="Readings">Readings</label>
+            <input type="checkbox" name="hobbies"><label form="Travelling">Travelling</label>
+            <input type="checkbox" name="hobbies"><label form="sports">Sports</label>
+        </p>
+     </fieldset>
+    </form>
+    <br>
+    <form action="submit" method="post">
+        <fieldset>
+            <legend>contact information</legend>
+        <label for="">E-mail:</label>
+        <input type="E-mail" id="email">
+        <br><br>
+        <label for="">Phone number:</label>
+        <br>
+        <label for="">Address:</label>
+        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        <p>country:
+        <select name="country" id="country">
+            <option value="india">india</option>
+            <option value="us">united state</option>
+            <option value="ca">canada</option>
+        </select>
+        </p>
+        </fieldset>
+    </form>
+    <br><br>
+    <input type="submit">
+    <button type="submit">Reset</button>
+    
+</body>
+</html>
